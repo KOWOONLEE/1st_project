@@ -6,19 +6,13 @@ function Modal({ setModal, allBtn }) {
   const modalClose = () => {
     setModal(false);
   };
-<<<<<<< HEAD
   const clickBtn = () => {
     allBtn(false);
     setModal(false);
   };
 
   //모달창 뒤에 스크롤 방지
-=======
-  const clickkBtn = () => {
-    allBtn(false);
-    setModal(false);
-  };
->>>>>>> main
+
   useEffect(() => {
     document.body.style.overflow = 'hidden';
     return () => {
@@ -61,11 +55,8 @@ function Modal({ setModal, allBtn }) {
               주시기 바랍니다. 수집하는 개인정보 1. 이메일 2. 닉네임 3. 패스워드{' '}
             </content>
           </div>
-<<<<<<< HEAD
+
           <button onClick={clickBtn} className={css.agreeButton}>
-=======
-          <button onClick={clickkBtn} className={css.agreeButton}>
->>>>>>> main
             모두 동의합니다
           </button>
         </div>
@@ -73,8 +64,5 @@ function Modal({ setModal, allBtn }) {
     </div>
   );
 }
-<<<<<<< HEAD
-=======
 
->>>>>>> main
 export default Modal;
