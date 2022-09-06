@@ -3,6 +3,9 @@ import { useNavigate } from 'react-router-dom';
 import { useState } from 'react';
 import css from './Login.module.scss';
 import logo from '../../assets/images/logo2.png';
+import github_icon from '../../assets/images/github_icon.png';
+import google_icon from '../../assets/images/google_icon.png';
+import kakao_icon from '../../assets/images/kakao_icon.png';
 
 function Login() {
   const goToSignup = () => {
@@ -49,7 +52,7 @@ function Login() {
       email: email,
       password: pw,
     };
-    fetch('http://localhost:8000/user/login', {
+    fetch('http://localhost:8000/users/login', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
