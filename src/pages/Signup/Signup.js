@@ -62,6 +62,9 @@ function Signup() {
         if (res.status === 400) {
           alert('이미 사용중인 이메일 입니다.');
         }
+        if (res.status === 500) {
+          alert('이메일 전체를 입력해 주시기 바랍니다.');
+        }
       })
       .then(res => {});
   };
@@ -160,7 +163,7 @@ function Signup() {
             className={css.signupButton}
             style={{
               backgroundColor:
-                !emailError && !mismatchError && nickError
+                nickError && emailError && mismatchError
                   ? 'black'
                   : 'rgb(201, 204, 206)',
             }}
