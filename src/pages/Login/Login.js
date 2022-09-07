@@ -107,6 +107,7 @@ function Login() {
             </div>
           )}
           <button
+            disabled={!valid}
             onClick={onLoginBtnClick}
             style={{ backgroundColor: valid ? 'black' : 'rgb(201, 204, 206)' }}
             className={`${css.loginButton} ${css.button}`}

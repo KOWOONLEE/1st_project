@@ -22,26 +22,39 @@ function Signup() {
     setEmailError(!e.target.value.includes('@'));
   };
 
-  //비밀번호 칸이랑 비밀번호 확인칸이랑 맞는지 확인하고 틀리면 아래 경고 메세지
-  const onChangePassword = useCallback(
-    e => {
-      setPassword(e.target.value);
-      setMismatchError(e.target.value !== passwordCheck);
-    },
-    [passwordCheck]
-  );
   //닉네임에 하나 이상 들어가는지 확인
   const onChangeNick = useCallback(e => {
     setNickName(e.target.value);
     setNickError(e.target.value.length >= 1);
   }, []);
 
+  // const onChangePasswordCheck = useCallback(
+  //   e => {
+  //     setPasswordCheck(e.target.value);
+  //     setMismatchError(e.target.value !== password);
+  //   },
+  //   [password]
+  // );
+
+  //비밀번호 칸이랑 비밀번호 확인칸이랑 맞는지 확인 6자리 이상 들어가지 않으면 경고 메세시
   const onChangePasswordCheck = useCallback(
     e => {
       setPasswordCheck(e.target.value);
-      setMismatchError(e.target.value !== password);
+      setMismatchError(
+        e.target.value !== password || e.target.value.length < 6
+      );
     },
     [password]
+  );
+
+  const onChangePassword = useCallback(
+    e => {
+      setPassword(e.target.value);
+      setMismatchError(
+        e.target.value !== passwordCheck || e.target.value.length < 6
+      );
+    },
+    [passwordCheck]
   );
   //이메일 중복확인
   const repetConfirm = () => {
@@ -105,6 +118,7 @@ function Signup() {
           <h1>회원가입</h1>
           <div>
             <input
+              value={nickName}
               onChange={onChangeNick}
               className={css.textInput}
               placeholder="닉네임"
@@ -112,6 +126,7 @@ function Signup() {
           </div>
           <div>
             <input
+              value={email}
               onChange={onChangeEmail}
               className={css.loginText}
               placeholder="Email 주소 입력 (@ 포함)"
@@ -128,6 +143,7 @@ function Signup() {
           </div>
           <div>
             <input
+              value={password}
               onChange={onChangePassword}
               type="password"
               className={css.textInput}
@@ -136,6 +152,7 @@ function Signup() {
           </div>
           <div>
             <input
+              value={passwordCheck}
               onChange={onChangePasswordCheck}
               type="password"
               className={css.textInput}
@@ -143,7 +160,7 @@ function Signup() {
             />
             {mismatchError && (
               <div style={{ color: 'red', textAlign: 'center' }}>
-                비밀번호가 일치하지 않습니다.
+                비밀번호를 다시 입력해주세요
               </div>
             )}
           </div>
