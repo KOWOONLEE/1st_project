@@ -62,9 +62,6 @@ function Signup() {
         if (res.status === 400) {
           alert('이미 사용중인 이메일 입니다.');
         }
-        if (res.status === 500) {
-          alert('이메일 전체를 입력해 주시기 바랍니다.');
-        }
       })
       .then(res => {});
   };
@@ -158,12 +155,12 @@ function Signup() {
             &nbsp;하기
           </div>
           <button
-            disabled={!nickName}
+            disabled={!nickName || !password || !email || !passwordCheck}
             onClick={onSignupBtnClick}
             className={css.signupButton}
             style={{
               backgroundColor:
-                nickError && emailError && mismatchError
+                !emailError && !mismatchError && nickError
                   ? 'black'
                   : 'rgb(201, 204, 206)',
             }}
