@@ -22,8 +22,6 @@ function Agreement() {
     setModal(true);
   };
 
-  // 다음단계 버튼 눌렀을 때 전체 선택되어있지 않으면 에러메세지 흐음..... 여기에 버튼 눌러서 담에 가는건 어카지
-
   const onCheckClick = e => {
     e.preventDefault();
     if (!allCheck) {
