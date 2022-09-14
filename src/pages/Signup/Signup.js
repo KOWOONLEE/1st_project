@@ -23,18 +23,13 @@ function Signup() {
   };
 
   //닉네임에 하나 이상 들어가는지 확인
-  const onChangeNick = useCallback(e => {
-    setNickName(e.target.value);
-    setNickError(e.target.value.length >= 1);
-  }, []);
-
-  // const onChangePasswordCheck = useCallback(
-  //   e => {
-  //     setPasswordCheck(e.target.value);
-  //     setMismatchError(e.target.value !== password);
-  //   },
-  //   [password]
-  // );
+  const onChangeNick = useCallback(
+    e => {
+      setNickName(e.target.value);
+      setNickError(e.target.value.length >= 1);
+    },
+    [nickName]
+  );
 
   //비밀번호 칸이랑 비밀번호 확인칸이랑 맞는지 확인 6자리 이상 들어가지 않으면 경고 메세시
   const onChangePasswordCheck = useCallback(
