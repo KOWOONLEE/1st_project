@@ -2,8 +2,6 @@
 
 
 ### 이거사조팀의 **`Hola!`** 사이트 제작 프로젝트입니다.
-<img width="500" alt="1st_projectpicture" src="https://user-images.githubusercontent.com/108816777/213902493-ab6ff08f-aa4d-4e37-a348-6ca109cfc664.png">
-<br>
 👉[Hola 오리지널 페이지](https://holaworld.io/)
 
 ---
