@@ -55,7 +55,7 @@
 - post method이용하고 token 값 받아와서 올바르게 회원가입하여 계정이 있는 아이디와 패스워드로만 로그인 가능
 - 미 충족시에 버튼을 클릭하게 된다면 하단에 로그인 정보를 확인하라는 오류 메세지 alert창 뜸.
 - 올바른 정보로 로그인했을 때 로그인이 성공하였습니다라는 alert창이 뜨고 main페이지로 이동됨.
-![로그인](https://user-images.githubusercontent.com/108816777/213903085-81cec9b1-64c0-4693-955d-34fe5faa5f16.gif)
+<img src="https://user-images.githubusercontent.com/108816777/213903085-81cec9b1-64c0-4693-955d-34fe5faa5f16.gif" width="700" />
 
 <br>
 
@@ -65,7 +65,7 @@
 - 위의 조건들이 충족 시에 버튼 색상 변경 및 버튼 활성화되고 미충족 시 버튼 클릭한다면 전체 동의해달라고 하단에 오류 메세지 뜸.
 - 약관 자세히 보기 modal창을 만들어서 위의 기능 중복 처리
 - 전체 동의 후 다음단계 버튼 클릭 시 회원가입 페이지로 이동
-![이용약관](https://user-images.githubusercontent.com/108816777/213902769-321c9893-ffd1-43b3-98c8-fe51b5cb8f55.gif)
+<img src="https://user-images.githubusercontent.com/108816777/213902769-321c9893-ffd1-43b3-98c8-fe51b5cb8f55.gif" width="700" />
 
 <br>
 
@@ -75,7 +75,7 @@
 - 올바른 조건이 충족시에 버튼 활성화 및 색상 변경
 - 각각의 조건이 미 충족시에 입력칸 하단에 오류 메세지 출력 (이메일 양식 확인해라, 비밀번호 재확인해라)
 
-<img src="https://user-images.githubusercontent.com/108816777/213902937-818761fe-bd23-4ed9-b2a4-11eab899fbd6.gif" width="500"/>
+<img src="https://user-images.githubusercontent.com/108816777/213902937-818761fe-bd23-4ed9-b2a4-11eab899fbd6.gif" width="700"/>
 
 <br>
 
