@@ -1,8 +1,9 @@
 <img src="https://velog.velcdn.com/images/hh1008/post/8bf080da-6a3c-4cbd-881e-f41fb3fbb0e3/image.png" width="200px"/>
 
-### 이거사조팀의 **`Hola!`** Clone 코딩 프로젝트입니다.
 
-👉[Hola!](https://holaworld.io/)
+### 이거사조팀의 **`Hola!`** 사이트 제작 프로젝트입니다.
+
+👉[Hola 오리지널 페이지](https://holaworld.io/)
 
 ---
 
@@ -19,7 +20,7 @@
 
 ### **프로젝트 구현 영상**
 
-영상링크 필요
+[![HALLO 팀원 모집 커뮤니티 사이트 유튜브 동영상](http://img.youtube.com/vi/ETs8lwviMBw/0.jpg)](https://www.youtube.com/embed/ETs8lwviMBw) 
 
 <br>
 
@@ -32,9 +33,30 @@
 - [프론트엔드 Github 링크](https://github.com/wecode-bootcamp-korea/justcode-6-1st-this.4team-front)
 - [백엔드 Github 링크](https://github.com/wecode-bootcamp-korea/justcode-6-1st-this.4team-back)
 
+--------------------------------
+## 📌 이고운 담당 상세 내용 📌
+### 1. 프로젝트 내 역할
+  - 로그인
+  - 이용약관
+  - 회원가입
+
 <br>
 
-## 역할 분담
+### 2. 구현 상세 내용
+**1) 로그인**
+<br>
+**2) 이용약관**
+<br>
+**3) 회원가입**
+<br>
+
+
+
+
+
+--------------------------------
+## 👉 전체 프로젝트 내용
+### 역할 분담
 
 - 이혜림
   - header nav
