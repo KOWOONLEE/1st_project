@@ -74,7 +74,7 @@
 - post method이용하고 status값 이용하여 중복확인 알람 뜸.
 - 올바른 조건이 충족시에 버튼 활성화 및 색상 변경
 - 각각의 조건이 미 충족시에 입력칸 하단에 오류 메세지 출력 (이메일 양식 확인해라, 비밀번호 재확인해라)
-![회원가입](https://user-images.githubusercontent.com/108816777/213902937-818761fe-bd23-4ed9-b2a4-11eab899fbd6.gif)
+![회원가입](https://user-images.githubusercontent.com/108816777/213902937-818761fe-bd23-4ed9-b2a4-11eab899fbd6.gif width='500px')
 
 <br>
 
