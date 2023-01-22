@@ -20,7 +20,7 @@
 
 ### **프로젝트 구현 영상**
 
-[![HALLO 팀원 모집 커뮤니티 사이트 유튜브 동영상](http://img.youtube.com/vi/ETs8lwviMBw/0.jpg)](https://www.youtube.com/embed/ETs8lwviMBw?t=0s) 
+[![HALLO 팀원 모집 커뮤니티 사이트 유튜브 동영상](http://img.youtube.com/vi/ETs8lwviMBw/0.jpg)](https://www.youtube.com/embed/ETs8lwviMBw=0s) 
 
 <br>
 
