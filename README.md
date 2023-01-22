@@ -68,6 +68,7 @@
 ![이용약관](https://user-images.githubusercontent.com/108816777/213902769-321c9893-ffd1-43b3-98c8-fe51b5cb8f55.gif)
 
 <br>
+
 **3) 회원가입**
 - 닉네임 1자 이상, 이메일 @포함, 패스워드와 패스워드 확인이 동일한 조건일 때 회원가입 가능
 - post method이용하고 status값 이용하여 중복확인 알람 뜸.
